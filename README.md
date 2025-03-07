@@ -2,6 +2,9 @@
 
 Aplicação para gerenciar e controlar despesas pessoais, permitindo o registro, consulta e exclusão de despesas de forma simples e eficiente.
 
+![Demonstração](readme/demo.gif)
+
+
 ## Funcionalidades
 
 - **Cadastro de Despesas**: Permite o registro de despesas com informações detalhadas, como data, tipo, descrição e valor.
