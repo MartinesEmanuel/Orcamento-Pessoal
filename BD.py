@@ -1,6 +1,6 @@
 import sqlite3 as lite
 
-con = lite.connect('pessoal.db')
+con = lite.connect('personal.db')
 
 
 #Tabela de Categoria

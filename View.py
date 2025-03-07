@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 
 
-con = lite.connect("pessoal.db")
+con = lite.connect("personal.db")
 
 #=========================================================================================
 #Inserindo categoria

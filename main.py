@@ -290,7 +290,7 @@ frame_graphPie.place(x=415,y=5)
 
 # Trabalhando no frameUP
 try:
-    app_img = Image.open('logo.png')
+    app_img = Image.open('img/logo.png')
     app_img = app_img.resize((45, 45))
     app_img = ImageTk.PhotoImage(app_img)
 
@@ -354,7 +354,7 @@ e_valor_despesas = Entry(frame_operacoes,width=entry_width,justify='left',relief
 e_valor_despesas.place(x=110,y=101)
 
 #Botão ADD
-img_add_despesas = Image.open('add.png')
+img_add_despesas = Image.open('img/add.png')
 img_add_despesas = img_add_despesas.resize((17, 17))
 img_add_despesas = ImageTk.PhotoImage(img_add_despesas)
 
@@ -368,7 +368,7 @@ add_despesas.place(x=110, y=131)
 l_remove= Label(frame_operacoes,text='Excluir ação',height=1,anchor=NW,font=('Ivy 10 bold'),bg=c01,fg=c00)
 l_remove.place(x=10,y=190)
 
-button_remove = Image.open('excluir.png')
+button_remove = Image.open('img/excluir.png')
 button_remove = button_remove.resize((17, 17))
 button_remove = ImageTk.PhotoImage(button_remove)
 
@@ -395,7 +395,7 @@ e_valor_receitas = Entry(frame_config,width=entry_width,justify='left',relief='s
 e_valor_receitas.place(x=110,y=71)
 
 #Botão ADD
-img_add_receitas = Image.open('add.png')
+img_add_receitas = Image.open('img/add.png')
 img_add_receitas = img_add_receitas.resize((17, 17))
 img_add_receitas = ImageTk.PhotoImage(img_add_receitas)
 
@@ -410,7 +410,7 @@ e_categoria = Entry(frame_config,width=entry_width,justify='left',relief='solid'
 e_categoria.place(x=110,y=160)
 
 #Botão ADD
-img_add_categoria = Image.open('add.png')
+img_add_categoria = Image.open('img/add.png')
 img_add_categoria = img_add_categoria.resize((17, 17))
 img_add_categoria = ImageTk.PhotoImage(img_add_categoria)
 
